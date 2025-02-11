@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box level</title>
+    <style>
+        h1 {     /*box level*/
+
+            display: block; /*padrao usando o display inline fara com que ele ter caracteristicas de um box-inline*/
+
+            background-color: white;
+           
+            height: 200px;
+            width: 200px;
+            padding: 10px;
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+            
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: blue;
+        }
+        a {    /** inline level */
+            display: inline; /*
+            padrao usando o display block ele ter caracteristicas de um box-level
+            */
+            background-color: white;
+            border-color: rgb(21, 250, 0);
+            height: 200px;
+            width: 200px;
+            padding: 10px;
+            border-width: 10px;
+            border-style: solid;
+        }
+    </style>
+</head>
+<body>
+    <h1>exemplo de box level</h1>
+    <p>paragrafos sao exemplos de box level <a href="#">links sao exemplos de inline level</a></p>
+</body>
+</html>

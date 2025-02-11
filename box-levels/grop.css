@@ -1,0 +1,88 @@
+@charset 'utf-8';
+
+#manchete {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(20, 20, 20);
+    margin: 8px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(112, 112, 112);
+    margin: 0px;
+}
+
+
+main {
+    border-radius: 5px;
+}
+
+
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+
+nav > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 21px;
+    font-weight: bold;
+}
+
+
+nav {
+    background-color: rgb(105, 105, 105);
+    padding: 4px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);
+    text-align: center;
+}
+
+
+nav > a:hover {
+    color: rgb(105, 105, 105);
+    background-color: rgb(255, 255, 255);
+    text-decoration: underline;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+    padding: 1px;
+}
+
+
+article {
+    background-color: white;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.253);
+}
+
+
+aside {
+    background-color: white;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.253);
+}
+
+
+.txtby {
+    color: rgb(255, 255, 255);
+    background-color: rgb(105, 105, 105);
+    text-align: center;
+    padding: 2px;
+}
+
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(26, 26, 26);
+    padding: 10px;
+    text-align: center;
+    margin: 0px;
+}

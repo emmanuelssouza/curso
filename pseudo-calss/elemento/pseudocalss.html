@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-classes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        div#d4 > p {
+            display: none;
+        }
+        div#d4:hover > p {
+            display: block;
+            background-color: tomato;
+            color: rgb(255, 255, 255);
+        }
+        div#d4:hover {
+            color: red;
+        }
+        div#d1:hover {
+            color: rgb(255, 255, 255);
+            background-color: rgb(255, 0, 0);
+        }
+
+        /*
+        pseudocalsse é uma forma de personalizar um objeto de acordo com a interação do usuário usando o (:) e o nome da pseudo-classe
+        pseudo-classe 'hover' faz com que ao passar o mouse por cima de um determinado objeto algo vai acontecer
+        
+        */
+
+        a {
+            color : rgb(255, 0, 0);
+            text-decoration: none;
+        }
+        a:visited{
+            color: rgb(85, 0, 0);
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: rgb(0, 0, 255);
+        }
+
+        
+        /**
+        Pseudo-elementos são palavras-chave adicionadas a seletores que permitem que você estilize partes específicas de um elemento. Eles são usados para aplicar estilos a partes de um elemento que não podem ser diretamente acessadas através do HTML usando (::) e o nome da pseudo-elemento
+        */
+        
+        a::after {
+            content: " \002714";
+            color: green;
+        }
+        
+        a::before {
+            content: " ";
+        }
+
+    </style>
+</head>
+<body>
+    <h1>texto escondido</h1>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+    <div id="d4">passe o mouse aqui <p>texto escondido...</p></div>
+    <h1>personalizando links</h1>
+    <ul>
+        <a href="https://www.youtube.com" target="_blank">
+            <li>youtube.com</li>
+        </a>
+        <a href="https://github.com" target="_blank">
+            <li>github.com</li>
+        </a>
+    </ul>
+
+</body>
+</html>
