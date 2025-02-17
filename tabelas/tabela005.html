@@ -14,6 +14,10 @@
             width: 600px;
             border-collapse: collapse;
         }
+        caption{
+            font-size: 1.8em;
+            font-weight: bold;
+        }
         td{
             border: 1px solid black;
             padding: 8px;
@@ -35,16 +39,16 @@
         <thead>
             <caption>Filmes favoritos</caption>
             <tr>
-                <th>Grupo</th>
-                <th>Nomes</th>
-                <th colspan="3">Filmes</th>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
             </tr>
 
         </thead>
 
         <tbody>
             <tr>
-                <th rowspan="3">Mulheres</th>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
                 <td>Ana Maria Santos</td>
                 <td>Alien</td>
                 <td>rambo</td>
@@ -65,7 +69,7 @@
             </tr>
 
             <tr>
-                <th rowspan="3">Homens</th>
+                <th rowspan="3" scope="rowgroup">Homens</th>
                 <td>Bruno Mendonca</td>
                 <td>Intocaveis</td>
                 <td>Amnésia</td>
