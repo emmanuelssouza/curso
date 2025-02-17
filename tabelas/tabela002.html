@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas 02</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 300px;
+            height: 300px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            color: white;
+            background-color: rgb(26, 27, 46);
+            padding: 10px;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(9, 10, 24);
+        }
+        thead, tfoot{
+            background-color: rgb(9, 10, 24);
+            color: white;
+        }
+        tbody{
+            background-color: rgb(253, 247, 155);
+        }
+        tbody > tr:nth-child(2n){
+            background-color: rgb(107, 195, 211);
+            
+        }
+        tfoot > tr > th, thead > tr > th{
+            border: 1px solid rgb(9, 10, 24);
+            padding: 10px;
+        }
+        td.num{
+            border: 1px solid black;
+            padding: 7px;
+            text-align: right;
+        }
+        td{
+            border: 1px solid black;
+            padding: 7px;
+        }
+    </style>
+
+
+</head>
+<h1>tabelas grandes</h1>
+<body>
+    <table>
+        <caption>população dos estados</caption>
+        <thead>
+            <tr>
+                <th scope="col">estado</th>
+                <th scope="col" style="width: 90px;">população</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">12.000.701</td>
+            </tr>
+            <tr>
+                <td>Curitiba</td>
+                <td class="num">3.000.600</td>
+            </tr>
+            <tr>
+                <td>Goiania</td>
+                <td class="num">2.000.200</td>
+            </tr>
+            <tr>
+                <td>Porto Alegre</td>
+                <td class="num">1.000.200</td>
+            </tr>
+            <tr>
+                <td>Florianopolis</td>
+                <td class="num">500.400</td>
+            </tr>
+            <tr>
+                <td>Salvador</td>
+                <td class="num">400.500</td>
+            </tr>
+            <tr>    
+                <td>Recife</td>
+                <td class="num">300.300</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">12.000.701</td>
+            </tr>
+            <tr>
+                <td>Curitiba</td>
+                <td class="num">3.000.600</td>
+            </tr>
+            <tr>
+                <td>Goiania</td>
+                <td class="num">2.000.200</td>
+            </tr>
+            <tr>
+                <td>Porto Alegre</td>
+                <td class="num">1.000.200</td>
+            </tr>
+            <tr>
+                <td>Florianopolis</td>
+                <td class="num">500.400</td>
+            </tr>
+            <tr>
+                <td>Salvador</td>
+                <td class="num">400.500</td>
+            </tr>
+            <tr>    
+                <td>Recife</td>
+                <td class="num">300.300</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">12.000.701</td>
+            </tr>
+            <tr>
+                <td>Curitiba</td>
+                <td class="num">3.000.600</td>
+            </tr>
+            <tr>
+                <td>Goiania</td>
+                <td class="num">2.000.200</td>
+            </tr>
+            <tr>
+                <td>Porto Alegre</td>
+                <td class="num">1.000.200</td>
+            </tr>
+            <tr>
+                <td>Florianopolis</td>
+                <td class="num">500.400</td>
+            </tr>
+            <tr>
+                <td>Salvador</td>
+                <td class="num">400.500</td>
+            </tr>
+            <tr>    
+                <td>Recife</td>
+                <td class="num">300.300</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">12.000.701</td>
+            </tr>
+            <tr>
+                <td>Curitiba</td>
+                <td class="num">3.000.600</td>
+            </tr>
+            <tr>
+                <td>Goiania</td>
+                <td class="num">2.000.200</td>
+            </tr>
+            <tr>
+                <td>Porto Alegre</td>
+                <td class="num">1.000.200</td>
+            </tr>
+            <tr>
+                <td>Florianopolis</td>
+                <td class="num">500.400</td>
+            </tr>
+            <tr>
+                <td>Salvador</td>
+                <td class="num">400.500</td>
+            </tr>
+            <tr>    
+                <td>Recife</td>
+                <td class="num">300.300</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">12.000.701</td>
+            </tr>
+            <tr>
+                <td>Curitiba</td>
+                <td class="num">3.000.600</td>
+            </tr>
+            <tr>
+                <td>Goiania</td>
+                <td class="num">2.000.200</td>
+            </tr>
+            <tr>
+                <td>Porto Alegre</td>
+                <td class="num">1.000.200</td>
+            </tr>
+            <tr>
+                <td>Florianopolis</td>
+                <td class="num">500.400</td>
+            </tr>
+            <tr>
+                <td>Salvador</td>
+                <td class="num">400.500</td>
+            </tr>
+            <tr>    
+                <td>Recife</td>
+                <td class="num">300.300</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">12.000.701</td>
+            </tr>
+            <tr>
+                <td>Curitiba</td>
+                <td class="num">3.000.600</td>
+            </tr>
+            <tr>
+                <td>Goiania</td>
+                <td class="num">2.000.200</td>
+            </tr>
+            <tr>
+                <td>Porto Alegre</td>
+                <td class="num">1.000.200</td>
+            </tr>
+            <tr>
+                <td>Florianopolis</td>
+                <td class="num">500.400</td>
+            </tr>
+            <tr>
+                <td>Salvador</td>
+                <td class="num">400.500</td>
+            </tr>
+            <tr>    
+                <td>Recife</td>
+                <td class="num">300.300</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">12.000.701</td>
+            </tr>
+            <tr>
+                <td>Curitiba</td>
+                <td class="num">3.000.600</td>
+            </tr>
+            <tr>
+                <td>Goiania</td>
+                <td class="num">2.000.200</td>
+            </tr>
+            <tr>
+                <td>Porto Alegre</td>
+                <td class="num">1.000.200</td>
+            </tr>
+            <tr>
+                <td>Florianopolis</td>
+                <td class="num">500.400</td>
+            </tr>
+            <tr>
+                <td>Salvador</td>
+                <td class="num">400.500</td>
+            </tr>
+            <tr>    
+                <td>Recife</td>
+                <td class="num">300.300</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">12.000.701</td>
+            </tr>
+            <tr>
+                <td>Curitiba</td>
+                <td class="num">3.000.600</td>
+            </tr>
+            <tr>
+                <td>Goiania</td>
+                <td class="num">2.000.200</td>
+            </tr>
+            <tr>
+                <td>Porto Alegre</td>
+                <td class="num">1.000.200</td>
+            </tr>
+            <tr>
+                <td>Florianopolis</td>
+                <td class="num">500.400</td>
+            </tr>
+            <tr>
+                <td>Salvador</td>
+                <td class="num">400.500</td>
+            </tr>
+            <tr>    
+                <td>Recife</td>
+                <td class="num">300.300</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total</td>
+                <th>134.420.307</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit a dicta, doloribus, repellat sapiente qui officia mollitia dolor molestias eum dignissimos necessitatibus eaque enim asperiores. Aut quidem velit commodi laboriosam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quidem accusamus quasi vitae recusandae esse, distinctio nihil facere. Commodi blanditiis necessitatibus, nulla eaque autem assumenda harum dolor distinctio rerum impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste optio fugit quas possimus ullam voluptates sint nam quia itaque voluptate, pariatur ducimus qui maiores. Asperiores repudiandae delectus sunt dolor nostrum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium hic aperiam consequatur impedit, magni quisquam eius, ea minima rem doloremque dignissimos necessitatibus, deserunt corrupti. Unde libero eius quia earum quisquam!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit a dicta, doloribus, repellat sapiente qui officia mollitia dolor molestias eum dignissimos necessitatibus eaque enim asperiores. Aut quidem velit commodi laboriosam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quidem accusamus quasi vitae recusandae esse, distinctio nihil facere. Commodi blanditiis necessitatibus, nulla eaque autem assumenda harum dolor distinctio rerum impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste optio fugit quas possimus ullam voluptates sint nam quia itaque voluptate, pariatur ducimus qui maiores. Asperiores repudiandae delectus sunt dolor nostrum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium hic aperiam consequatur impedit, magni quisquam eius, ea minima rem doloremque dignissimos necessitatibus, deserunt corrupti. Unde libero eius quia earum quisquam!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit a dicta, doloribus, repellat sapiente qui officia mollitia dolor molestias eum dignissimos necessitatibus eaque enim asperiores. Aut quidem velit commodi laboriosam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quidem accusamus quasi vitae recusandae esse, distinctio nihil facere. Commodi blanditiis necessitatibus, nulla eaque autem assumenda harum dolor distinctio rerum impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste optio fugit quas possimus ullam voluptates sint nam quia itaque voluptate, pariatur ducimus qui maiores. Asperiores repudiandae delectus sunt dolor nostrum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium hic aperiam consequatur impedit, magni quisquam eius, ea minima rem doloremque dignissimos necessitatibus, deserunt corrupti. Unde libero eius quia earum quisquam!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit a dicta, doloribus, repellat sapiente qui officia mollitia dolor molestias eum dignissimos necessitatibus eaque enim asperiores. Aut quidem velit commodi laboriosam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quidem accusamus quasi vitae recusandae esse, distinctio nihil facere. Commodi blanditiis necessitatibus, nulla eaque autem assumenda harum dolor distinctio rerum impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste optio fugit quas possimus ullam voluptates sint nam quia itaque voluptate, pariatur ducimus qui maiores. Asperiores repudiandae delectus sunt dolor nostrum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium hic aperiam consequatur impedit, magni quisquam eius, ea minima rem doloremque dignissimos necessitatibus, deserunt corrupti. Unde libero eius quia earum quisquam!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit a dicta, doloribus, repellat sapiente qui officia mollitia dolor molestias eum dignissimos necessitatibus eaque enim asperiores. Aut quidem velit commodi laboriosam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quidem accusamus quasi vitae recusandae esse, distinctio nihil facere. Commodi blanditiis necessitatibus, nulla eaque autem assumenda harum dolor distinctio rerum impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste optio fugit quas possimus ullam voluptates sint nam quia itaque voluptate, pariatur ducimus qui maiores. Asperiores repudiandae delectus sunt dolor nostrum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium hic aperiam consequatur impedit, magni quisquam eius, ea minima rem doloremque dignissimos necessitatibus, deserunt corrupti. Unde libero eius quia earum quisquam!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit a dicta, doloribus, repellat sapiente qui officia mollitia dolor molestias eum dignissimos necessitatibus eaque enim asperiores. Aut quidem velit commodi laboriosam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quidem accusamus quasi vitae recusandae esse, distinctio nihil facere. Commodi blanditiis necessitatibus, nulla eaque autem assumenda harum dolor distinctio rerum impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste optio fugit quas possimus ullam voluptates sint nam quia itaque voluptate, pariatur ducimus qui maiores. Asperiores repudiandae delectus sunt dolor nostrum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium hic aperiam consequatur impedit, magni quisquam eius, ea minima rem doloremque dignissimos necessitatibus, deserunt corrupti. Unde libero eius quia earum quisquam!</p>
+</body>
+</html>
