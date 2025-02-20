@@ -6,6 +6,13 @@
     <title>Document</title>
     <style>
 
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
         input{
             text-align: center;
             padding: 10px;
@@ -13,6 +20,12 @@
             background-color: rgb(255, 255, 255);
             color: rgb(129, 129, 129);
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.678);
+        }
+        p{
+            position: relative;
+            top: 40vh;
+            left: 50vw;
+            transform: translate(-50%, -50%);
         }
         p.inor{
             text-align: center;
@@ -45,14 +58,12 @@
 </head>
 <body>
     <h1>teste numerico forms</h1>
-    <form action="cadastro.php" method="post">
-        <p class="nnor"><label for="inome"></label> 
-            <input type="text" name="nome" id="inome" required minlength="5" maxlength="20" placeholder="nome"></p>
-
-        <p class="inor"> <input type="number" name="media" id="media" min="0" max="10" step="0.1" placeholder="media"></p>
-
-        <p class="nor"><input type="submit" value="checar">
-            <input type="reset" value="limpar"></p>
-    </form>
+        <form action="cadastro.php" method="post">
+            <p class="nnor"><label for="inome"></label>
+                <input type="text" name="nome" id="inome" required minlength="5" maxlength="20" placeholder="nome"></p>
+            <p class="inor"> <input type="number" name="media" id="media" min="0" max="10" step="0.1" placeholder="media"></p>
+            <p class="nor"><input type="submit" value="checar">
+                <input type="reset" value="limpar"></p>
+        </form>
 </body>
 </html>
