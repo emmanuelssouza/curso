@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>teste numerico forms</h1>
+    <form action="cadastro.php" method="post">
+        <p><label for="inome">nome:</label> 
+            <input type="text" name="nome" id="inome" required minlength="5" maxlength="20" placeholder="nome"></p>
+
+        <p>media: <input type="number" name="media" id="media" min="0" max="10" step="0.1" placeholder="media"></p>
+
+        <p><input type="submit" value="cadastrar">
+            <input type="reset" value="limpar"></p>
+    </form>
+</body>
+</html>
