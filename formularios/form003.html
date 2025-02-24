@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+    }
+    h1{
+        margin: 20px;
+    }
+    fieldset{
+        margin: 10px;
+        padding: 10px;
+    }
+    div{
+        margin: 10px;
+        margin-top: 20px;
+    }
+    #enviar{
+        width: 100px;
+        font-size: 1.2em;
+        padding: 10px;
+    }
+</style>
+<body>
+    <h1>form exemple</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <div>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" required placeholder="Digite seu nome" autocomplete="name">
+            </div>
+            <div>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail" required placeholder="Digite seu e-mail" autocomplete="email">
+            </div>
+            <div>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" required placeholder="Digite seu telefone" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$">
+            </div>
+        </fieldset>
+        <div>
+            <input type="submit" value="Enviar" id="enviar">
+        </div>
+    </form>
+</body>
+</html>

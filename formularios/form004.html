@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+    }
+    h1{
+        margin: 20px;
+    }
+    fieldset{
+        margin: 10px;
+        padding: 10px;
+    }
+    div{
+        margin: 10px;
+        margin-top: 20px;
+    }
+    p{
+        margin-left: -18px;
+    }
+    ol{
+        list-style: none;
+        padding: 5px;
+    }
+    .enviar{
+        width: 80px;
+        font-size: 14px;
+        padding: 5px;
+        margin: 5px;
+        margin-top: -10px;
+    }
+</style>
+<body>
+    <h1>informaçoes</h1>
+    <fieldset>
+        <legend>informaçoes pessoais</legend>
+        <div>
+            <p>sexo:</p>
+            <input type="radio" name="sexo" id="masc" value="masc">
+            <label for="masc">masculino</label><br>
+            <input type="radio" name="sexo" id="fem" value="fem">
+            <label for="fem">feminino</label>
+        </div>
+        <div>
+            <p>esportes favoritos:</p>
+            <ol>
+                <li><input type="checkbox" name="esfut" id="esfut">
+                    <label for="esfut">futebol</label>
+                </li>
+                <li><input type="checkbox" name="esnat" id="esnat">
+                    <label for="esnat">natacao</label>
+                </li>
+                <li><input type="checkbox" name="esbas" id="esbas">
+                    <label for="esbas">basquete</label>
+                </li>
+            </ol>
+            
+        </div>
+    </fieldset>
+    <div>
+        <input type="submit" value="enviar" class="enviar">
+        <input type="reset" value="limpar" class="enviar">
+    </div>
+</body>
+</html>
