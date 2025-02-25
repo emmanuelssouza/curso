@@ -1,0 +1,23 @@
+@charset 'utf-8';
+
+* {
+    margin: 10px;
+    padding: 10px;
+    
+}
+html{
+    font-family: 'courier new', 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+menu{
+    display: none;
+}
+article{
+    width: 100%;
+}
+article::after{
+    content: 'Texto feito por mim, Obrigado por ler!';
+    padding: 10px;
+    font-size: 1.2em;
+}

@@ -1,0 +1,23 @@
+@charset 'utf-8';
+
+/** todas as comfigs */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+html,body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #233eff;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+h1 {
+    font-size: 2em;
+    color: #ffffff;
+    text-shadow: 2px 2px 0px #1526a78f;
+}
