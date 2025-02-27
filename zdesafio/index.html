@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="styles/media.css">
+</head>
+<body>
+    <div class="imagem"><img src="img/pexels-tizzy-30881648.jpg" alt="imagem login"></div>
+    <main>
+        
+        <h1>Login</h1>
+        <p>seja bem vindo novamente, faça login para acessar sua conta e manter-se atualizado e modifiacar seus dados pessoais com a nossa empresa</p>
+        <form action="login.php" method="post" autocomplete="off">
+            <div class="campo"><label for="iemail"><span id="icon" class="material-symbols-outlined">person</span>
+                <input type="email" name="email" id="iemail" required placeholder="seu email"></label> </div>
+            
+            <div class="campo"><label for="isenha"><span id="icon" class="material-symbols-outlined">key</span>
+                <input type="password" name="senha" id="isenha" required placeholder="sua senha" minlength="8"></label> </div>
+
+            <input type="submit" value="Entrar" id="entrar">
+
+            <button type="button" id="esqueci">Esqueci minha senha <span id="icon" class="material-symbols-outlined">mail</span></button>
+
+    </main>
+</body>
+</html>

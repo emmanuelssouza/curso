@@ -1,0 +1,99 @@
+@charset 'UTF-8';
+
+
+
+@media screen and (min-width: 768px) {
+    body{
+        position: absolute;
+        background-image:linear-gradient(to bottom, #5a3c6b, #3c7580);
+        transition-duration: 0.5s;
+    }
+    main {
+        position: relative;
+        width: 600px;
+        height: 400px;
+        margin: auto;
+        top: 100px;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+        border-radius: 0px 10px 10px 0px;
+    }
+    img {
+        width: 300px;
+        height: 400px;
+        top: 500px;
+        left: 30vw;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .campo{
+        background-color: #664b70;
+        padding: 2px;
+        padding-right:3px;
+        margin: 10px;
+        width: 560px;
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        text-align: right;
+    }
+    .campo span{
+        font-size: 2em;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 20px;
+        font-size: 2.5em;
+    }
+    .campo input{
+        display: inline-block;
+        width: 470px;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        margin: 0px;
+    }
+    .campo input:hover{
+        background-color: aqua;
+    }
+
+    #entrar{
+        display: block;
+        margin: auto;
+        margin-top: 15px;
+        height: 45px;
+        width: 360px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #37929b;
+        color: white;
+        border: none;
+        font-size: 1.3em;
+        transition-duration: 0.1s;
+    }
+    #entrar:active{
+        width: 350px;
+        height: 46px;
+        background-color: rgb(70, 17, 95);
+        
+    }
+    
+    
+    #esqueci{
+        display: block;
+        margin: auto;
+        margin-top: 15px;
+        height: 45px;
+        width: 360px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #d4d4d4;
+        color: rgb(44, 65, 60);
+        border: none;
+        font-size: 1.3em;
+        border: 1px solid rgb(116, 138, 132);
+        transition-duration: 0.5s;
+    }
+    #esqueci:active{
+        background-color: aqua;
+        border: 1px solid rgb(0, 0, 0);
+    }
+}
