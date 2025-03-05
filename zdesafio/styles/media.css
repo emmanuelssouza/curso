@@ -2,31 +2,60 @@
 
 
 
-@media screen and (min-width: 768px) {
-    body{
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body, html {
         position: absolute;
         background-image:linear-gradient(to bottom, #5a3c6b, #3c7580);
-        transition-duration: 0.5s;
+        background-size: cover;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
     main {
         position: relative;
-        width: 600px;
-        height: 400px;
+        width: 800px;
+        height: 500px;
         margin: auto;
-        top: 100px;
+        top: 70vh;
         left: 50vw;
-        transform: translate(-50%, -50%);
+        transform: translate(-50vw, -50ch);
         border-radius: 0px 10px 10px 0px;
     }
-    img {
-        width: 300px;
-        height: 400px;
-        top: 500px;
-        left: 30vw;
+    div img {
+
+        position: relative;
+        left: -20px;
+        width: 200px;
+        height: 500px;
         border-radius: 10px 0px 0px 10px;
     }
 
+    main h1{
+        margin: auto;
+        position: relative;
+        top: -457px;
+        left: 70px;
+        text-align: center;
+        padding: 10px;
+        font-weight: bolder;
+        font-size: 2.5em;
+    }
+    main p{
+        margin: auto;
+        text-align: center;
+        position: relative;
+        top: -444px;
+        left: 90px;
+        width: 550px;
+        padding: 10px;
+        font-size: 1.1em;
+        text-align: justify;
+        line-height: 1.5em;
+    }
+
     .campo{
+        position: relative;
+        top: -440px;
+        left: 195px;
         background-color: #664b70;
         padding: 2px;
         padding-right:3px;
@@ -56,33 +85,39 @@
     }
 
     #entrar{
-        display: block;
+        position: relative;
+        top: -440px;
+        left: 95px;
         margin: auto;
         margin-top: 15px;
-        height: 45px;
-        width: 360px;
+        height: 35px;
+        width: 560px;
         padding: 10px;
         border-radius: 10px;
         background-color: #37929b;
         color: white;
         border: none;
         font-size: 1.3em;
-        transition-duration: 0.1s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     #entrar:active{
-        width: 350px;
-        height: 46px;
+        width: 550px;
+        height: 34px;
         background-color: rgb(70, 17, 95);
         
     }
     
     
     #esqueci{
-        display: block;
+        position: relative;
+        top: -440px;
+        left: 95px;
         margin: auto;
         margin-top: 15px;
-        height: 45px;
-        width: 360px;
+        height: 35px;
+        width: 560px;
         padding: 10px;
         border-radius: 10px;
         background-color: #d4d4d4;
@@ -90,10 +125,163 @@
         border: none;
         font-size: 1.3em;
         border: 1px solid rgb(116, 138, 132);
-        transition-duration: 0.5s;
+        vertical-align: top;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     #esqueci:active{
         background-color: aqua;
         border: 1px solid rgb(0, 0, 0);
     }
 }
+
+
+
+
+
+
+/*///////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+@media  screen and (min-width: 992px) {
+    body, html {
+        position: absolute;
+        background-image:linear-gradient(to bottom, #5a3c6b, #3c7580);
+        background-size: cover;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    main {
+        position: relative;
+        width: 800px;
+        height: 500px;
+        margin: auto;
+        top: 70vh;
+        left: 50vw;
+        transform: translate(-50vw, -50vh);
+        border-radius: 0px 10px 10px 0px;
+    }
+    div img {
+
+        position: relative;
+        left: -20px;
+        width: 200px;
+        height: 500px;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    main h1{
+        margin: auto;
+        position: relative;
+        top: -47px;
+        left: 70px;
+        text-align: center;
+        padding: 10px;
+        font-weight: bolder;
+        font-size: 2.5em;
+    }
+    main p{
+        margin: auto;
+        text-align: center;
+        position: relative;
+        top: -44vh;
+        left: 90px;
+        width: 550px;
+        padding: 10px;
+        font-size: 1.1em;
+        text-align: justify;
+        line-height: 1.5em;
+    }
+
+    .campo{
+        position: relative;
+        top: -40vh;
+        left: 195px;
+        background-color: #664b70;
+        padding: 2px;
+        padding-right:3px;
+        margin: 10px;
+        width: 560px;
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        text-align: right;
+    }
+    .campo span{
+        font-size: 2em;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 20px;
+        font-size: 2.5em;
+    }
+    .campo input{
+        display: inline-block;
+        width: 470px;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        margin: 0px;
+    }
+    .campo input:hover{
+        background-color: aqua;
+    }
+
+    #entrar{
+        position: relative;
+        top: -40vh;
+        left: 95px;
+        margin: auto;
+        margin-top: 15px;
+        height: 35px;
+        width: 560px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #37929b;
+        color: white;
+        border: none;
+        font-size: 1.3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #entrar:active{
+        width: 550px;
+        height: 34px;
+        background-color: rgb(70, 17, 95);
+        
+    }
+    
+    
+    #esqueci{
+        position: relative;
+        top: -40vh;
+        left: 95px;
+        margin: auto;
+        margin-top: 15px;
+        height: 35px;
+        width: 560px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #d4d4d4;
+        color: rgb(44, 65, 60);
+        border: none;
+        font-size: 1.3em;
+        border: 1px solid rgb(116, 138, 132);
+        vertical-align: top;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #esqueci:active{
+        background-color: aqua;
+        border: 1px solid rgb(0, 0, 0);
+    }
+}
+
