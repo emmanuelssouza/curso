@@ -2,7 +2,7 @@
 
 
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 820px) and (max-width: 1200px) {
     body, html {
         position: absolute;
         background-image:linear-gradient(to bottom, #5a3c6b, #3c7580);
@@ -151,95 +151,124 @@
 
 
 
-@media  screen and (min-width: 992px) {
-    body, html {
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+
+    body,
+    html {
         position: absolute;
-        background-image:linear-gradient(to bottom, #5a3c6b, #3c7580);
+        background-image: linear-gradient(to bottom, #5a3c6b, #3c7580);
         background-size: cover;
         overflow-y: hidden;
         overflow-x: hidden;
     }
-    main {
+    section{
         position: relative;
-        width: 800px;
-        height: 500px;
-        margin: auto;
-        top: 70vh;
+        top: 50vh;
         left: 50vw;
         transform: translate(-50vw, -50vh);
-        border-radius: 0px 10px 10px 0px;
     }
-    div img {
-
+    main {
         position: relative;
-        left: -20px;
-        width: 200px;
-        height: 500px;
+        top: 50vh;
+        left: 50vw;
+        transform: translate(-50vw, -30vh);
+
+        width: 1000px;
+        height: 600px;
+        margin: auto;
         border-radius: 10px 0px 0px 10px;
     }
 
-    main h1{
+    div img {
+
+        left: 600px;
+        width: 400px;
+        height: 601px;
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    main h1 {
         margin: auto;
         position: relative;
-        top: -47px;
-        left: 70px;
+        top: -557px;
+        left: -200px;
         text-align: center;
         padding: 10px;
         font-weight: bolder;
-        font-size: 2.5em;
+        font-size: 3em;
     }
-    main p{
+
+    main p {
         margin: auto;
         text-align: center;
         position: relative;
-        top: -44vh;
-        left: 90px;
+        top: -544px;
+        left: -200px;
         width: 550px;
         padding: 10px;
-        font-size: 1.1em;
+        font-size: 1.3em;
         text-align: justify;
-        line-height: 1.5em;
+        line-height: 1.7em;
     }
 
-    .campo{
+    .campo {
         position: relative;
-        top: -40vh;
-        left: 195px;
+        top: -540px;
+        left: 0px;
         background-color: #664b70;
         padding: 2px;
-        padding-right:3px;
+        padding-right: 3px;
         margin: 10px;
         width: 560px;
         border-radius: 10px;
         color: rgb(255, 255, 255);
         text-align: right;
     }
-    .campo span{
+
+    .campo span {
         font-size: 2em;
         display: inline-block;
         vertical-align: middle;
         margin-right: 20px;
-        font-size: 2.5em;
+        font-size: 3.5em;
     }
-    .campo input{
+
+    .campo input {
         display: inline-block;
+        font-size: 1.5em;
+        vertical-align: middle;
         width: 470px;
         padding: 10px;
+        padding-bottom: 16px;
         border: none;
         border-radius: 10px;
         margin: 0px;
     }
-    .campo input:hover{
+
+    .campo input:hover {
         background-color: aqua;
     }
 
-    #entrar{
+    #entrar {
         position: relative;
-        top: -40vh;
-        left: 95px;
+        top: -540px;
+        left: -195px;
         margin: auto;
         margin-top: 15px;
-        height: 35px;
+        height: 65px;
         width: 560px;
         padding: 10px;
         border-radius: 10px;
@@ -251,21 +280,22 @@
         justify-content: center;
         align-items: center;
     }
-    #entrar:active{
+
+    #entrar:active {
         width: 550px;
         height: 34px;
         background-color: rgb(70, 17, 95);
-        
+
     }
-    
-    
-    #esqueci{
+
+
+    #esqueci {
         position: relative;
-        top: -40vh;
-        left: 95px;
+        top: -540px;
+        left: -195px;
         margin: auto;
         margin-top: 15px;
-        height: 35px;
+        height: 65px;
         width: 560px;
         padding: 10px;
         border-radius: 10px;
@@ -279,9 +309,9 @@
         justify-content: center;
         align-items: center;
     }
-    #esqueci:active{
+
+    #esqueci:active {
         background-color: aqua;
         border: 1px solid rgb(0, 0, 0);
     }
 }
-
