@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+
+
+        /* DESTRIBUINDO USANDO GRID */
+    .container {
+        display: grid; /* Ativa o Grid */
+        grid-template-areas:
+         "header header header"
+         "sidebar content content"
+         "footer footer footer";
+        grid-template-columns: 1fr 2fr; /* Menu menor, conteúdo maior */
+        gap: 10px;
+}
+
+    .header { 
+        grid-area: header; background: #ff5733; padding: 20px; 
+    }
+
+    .sidebar { 
+        grid-area: sidebar; background: #33ff57; padding: 20px; 
+    }
+
+    .content { 
+        grid-area: content; background: #3357ff; padding: 20px; 
+    }
+
+    .footer { 
+        grid-area: footer; background: #ff33a6; padding: 20px;
+    }
+
+
+/*///////////////////////////////////////////////////////*
+
+
+/* DESTRIBUINDO USANDO FLEXBOX */
+
+    .navbar {
+        display: flex; /* Ativa o Flexbox */
+        justify-content: space-around; /* Distribui os  itens */
+        align-items: center; /* Centraliza na vertical */
+        background: #333;
+        padding: 10px;
+        color: white;
+    }
+    .item {
+        padding: 10px 20px;
+    }
+
+
+    </style>
+
+
+</head>
+<body>
+
+    <--! DESTRIBUINDO USANDO GRID -->
+    <div class="container">
+        <div class="header">Cabeçalho</div>
+        <div class="sidebar">Menu Lateral</div>
+        <div class="content">Conteúdo Principal</div>
+        <div class="footer">Rodapé</div>
+    </div> 
+    
+    <BR> <BR> <br> </BR></BR>
+
+    /* DESTRIBUINDO USANDO FLEXBOX */
+    <div class="navbar">
+        <div class="item">Home</div>
+        <div class="item">Sobre</div>
+        <div class="item">Contato</div>
+    </div>
+</body>
+</html>

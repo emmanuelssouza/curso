@@ -70,15 +70,13 @@ div img{
 }
 .campo input{
     display: inline-block;
+    background-color: #92eaf1;
     width: 270px;
     padding: 8px;
     padding-bottom: 10px;
     border: none;
     border-radius: 10px;
     margin: 0px;
-}
-.campo input:hover{
-    background-color: aqua;
 }
 #entrar{
     margin: auto;
@@ -99,8 +97,6 @@ div img{
     transition-delay: 0s;
 }
 #entrar:active{
-    width: 350px;
-    height: 46px;
     background-color: rgb(70, 17, 95);
     
 }
