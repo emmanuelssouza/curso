@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+</head>
+<style>
+
+    .conteiner{
+        background-color: darkgoldenrod;
+
+        display: flex;
+        flex-flow: row wrap;
+        align-items: start;
+        
+    }
+
+    .item{
+        background-color: darkcyan;
+        border: 1px solid black;
+        padding: 5px 10px;
+        text-align: center;
+
+
+        flex-basis: 150px;
+    }
+
+
+</style>
+<body>
+    <div class="conteiner">
+        <div class="item" id="item1">outro conteudo</div>
+        <div class="item" id="item2">2</div>
+        <div class="item" id="item3">conteudo maior ainda</div>
+        <div class="item" id="item4">4</div>
+        <div class="item" id="item5">outro conteudo que ocupa pais espaço</div>
+    </div>
+</body>
+</html>
