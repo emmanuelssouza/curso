@@ -14,42 +14,37 @@
     .container {
         display: grid;
 
-
-        grid-template-areas:
-            'header header header'
-            'aside article article'
-            'aside section section'
-            'footer footer footer';
+        grid-auto-rows: 100px;
         gap: 10px;
-        grid-auto-rows: 200px 150px;
     }
 
     header {
-        grid-area: header;
+        
         background-color: rgb(109, 133, 133);
-
+        width: 100px;
+        justify-self: center;
     }
 
     aside {
-        grid-area: aside;
+        
         background-color: rgb(22, 163, 53);
-
+        align-self: center;
     }
 
     article {
-        grid-area: article;
+        
         background-color: rgb(138, 58, 131);
 
     }
 
     section {
-        grid-area: section;
+        
         background-color: rgb(158, 175, 64);
 
     }
 
     footer {
-        grid-area: footer;
+        
         background-color: rgb(228, 31, 31);
 
     }

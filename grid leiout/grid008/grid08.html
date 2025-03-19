@@ -15,41 +15,41 @@
         display: grid;
 
 
-        grid-template-areas:
-            'header header header'
-            'aside article article'
-            'aside section section'
-            'footer footer footer';
+        
         gap: 10px;
-        grid-auto-rows: 200px 150px;
+        grid-auto-rows: 50px;
     }
 
     header {
-        grid-area: header;
+        grid-column: 1;
         background-color: rgb(109, 133, 133);
 
     }
 
     aside {
-        grid-area: aside;
+        grid-column: 2;
+        grid-row: 3;
         background-color: rgb(22, 163, 53);
 
     }
 
     article {
-        grid-area: article;
+        grid-column: 3;
+        grid-row: 1;
         background-color: rgb(138, 58, 131);
 
     }
 
     section {
-        grid-area: section;
+        grid-column: 1;
+        grid-row: 1;
         background-color: rgb(158, 175, 64);
 
     }
 
     footer {
-        grid-area: footer;
+        grid-column: 2;
+        grid-row: 2;
         background-color: rgb(228, 31, 31);
 
     }
