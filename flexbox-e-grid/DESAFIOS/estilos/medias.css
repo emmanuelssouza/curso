@@ -1,88 +1,7 @@
 @charset 'UTF-8';
 
 
-@media screen and (min-width: 768px) {
-    
-
-* {
-    margin: 0px;
-    padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-}
-
-header {
-    background-color: rgb(138, 138, 138);
-}
-
-header>h1 {
-    text-align: left;
-    padding: 10px;
-    color: whitesmoke;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
-}
-
-ul {
-    display: flex;
-    list-style-type: none;
-    padding: 10px;
-    color: whitesmoke;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
-    text-align: center;
-
-    flex-flow: row nowrap;
-    justify-content: start;
-}
-
-a {
-    text-decoration: none;
-    color: whitesmoke;
-}
-
-
-li {
-    background-color: rgb(0, 0, 0);
-    margin-right: 12px;
-    border-radius: 5px;
-    padding: 9px 13px;
-    margin-top: 10px;
-    cursor: pointer;
-    transition: 0.4s;
-}
-
-li:hover {
-    background-color: rgb(255, 255, 255);
-    color: black;
-}
-
-main {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-section {
-    background-color: rgb(189, 189, 189);
-    border-radius: 10px;
-    padding: 10px;
-    width: 700px;
-
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.39);
-}
-
-}
-
-
-
-
-
-/*/////////////////////////////////////////////////////////////////////*/
-
-
-
-
-@media screen and (min-width: 1030px) {
+@media screen and (min-width: 556px){
 
 
     * {
@@ -97,17 +16,16 @@ section {
         background-color: rgb(138, 138, 138);
 
         flex-flow: row wrap;
-        justify-content: end;
+        justify-content: space-between;
+
     }
 
     h1 {
-
+        margin-right: 60px;
         text-align: left;
         padding: 10px;
         color: whitesmoke;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
-
-        flex-grow: 1;
     }
 
     ul {
